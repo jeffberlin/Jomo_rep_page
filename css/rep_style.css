@@ -216,6 +216,13 @@ ul {
 
 /* SIGNUP FORM */
 
+.sign-up p {
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+	font-size: 16pt;
+	font-weight: 550;
+}
+
 form {
 	margin-top: 8rem;
 }
