@@ -109,12 +109,20 @@ html, body {
 .time-img {
 	background-color: #30cf83;
 	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 
 .time-img img {
 	padding: 15px;
 	margin: 3rem auto;
 	height: fit-content;
+}
+
+.time-img h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+	font-size: 30pt;
 }
 
 /* INSTRUCTIONS SECTION */
