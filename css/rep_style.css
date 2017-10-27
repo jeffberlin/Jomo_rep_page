@@ -44,6 +44,8 @@ html, body {
 	width: 100%;
 }
 
+/* TOP SECTION */
+
 .top-section {
 	height: 100vh;
     background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/unc_charlotte-min.jpg);
@@ -59,7 +61,6 @@ html, body {
 }
 
 .header {
-	/*margin: 10vh 0;*/
 	margin-top: 10vh;
 }
 
@@ -69,6 +70,12 @@ html, body {
 
 .app-store {
 	margin-bottom: 3rem;
+}
+
+.play-store {
+	width: 165px;
+	display: inline-block;
+	margin: .5rem;
 }
 
 .header h3 {
@@ -84,23 +91,6 @@ html, body {
 	font-weight: 550;
 }
 
-.play-store {
-	width: 165px;
-	display: inline-block;
-	margin: .5rem;
-}
-
-.time-img {
-	background-color: #30cf83;
-	text-align: center;
-}
-
-.time-img img {
-	padding: 15px;
-	margin: 3rem auto;
-	height: fit-content;
-}
-
 .learn-button {
 	font-family: "UntitledSansTest-Light";
 	color: #696a6d;
@@ -114,4 +104,40 @@ html, body {
 	font-weight: 900;
 	outline: none;
 	margin-bottom: 1rem;
+}
+
+.time-img {
+	background-color: #30cf83;
+	text-align: center;
+}
+
+.time-img img {
+	padding: 15px;
+	margin: 3rem auto;
+	height: fit-content;
+}
+
+/* INSTRUCTIONS SECTION */
+
+.instructions h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+	font-size: 30pt;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.intructions-list li {
+	height: 30px;
+    margin: 2rem 0;
+    /*background: url('../images/single dot.png') no-repeat center;*/
+    list-style: none;
+    font-family: 'UntitledSansTest-Light';
+    color: #69616d;
+    font-size: 16pt;
+    font-weight: 550;
 }
