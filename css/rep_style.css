@@ -119,6 +119,9 @@ html, body {
 
 /* INSTRUCTIONS SECTION */
 
+.instructions {
+	background-color: #f5f5f5;
+}
 .instructions h1 {
 	font-family: 'GT-Walsheim-Medium';
 	color: #3a4b58;
