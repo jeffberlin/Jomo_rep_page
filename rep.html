@@ -119,13 +119,15 @@
 
     	<div class="col-lg-4 col-lg-offset-4">
 
-	    	<form action="mailto:rep@jomoapp.com" method="post" enctype="text/plain">
+    		<!-- CHANGE MAILTO TO rep@jomoapp.com -->
+
+	    	<form action="https://formspree.io/jeff@jbrally.com" method="POST">
 
 	    		<div class="form-group">
 
 	    			<label for="exampleInputName">First Name:</label>
 
-	    			<input class="form-control" id="exampleInputName" type="text" name="firstName" placeholder="First Name">
+	    			<input class="form-control" id="exampleInputName" type="text" name="first_name" placeholder="First Name">
 
 	    		</div>
 
@@ -133,7 +135,7 @@
 
 	    			<label for="exampleInputLastName">Last Name:</label>
 
-	    			<input class="form-control" id="exampleInputLastName" type="text" name="lastName" placeholder="Last Name">
+	    			<input class="form-control" id="exampleInputLastName" type="text" name="last_name" placeholder="Last Name">
 
 	    		</div>
 
@@ -165,11 +167,12 @@
 
 	    			<label for="exampleInputMessage">What do you do for fun?</label>
 
-	    			<textarea class="form-control" id="exampleInputMessage" rows="3" type="text" name="comment" placeholder="Hockey, football, skateboarding, mountain biking, etc."></textarea>
+	    			<textarea class="form-control" id="exampleInputMessage" rows="3" type="text" name="message" placeholder="Hockey, football, skateboarding, mountain biking, etc."></textarea>
 
 	    		</div>
 
-	    		<button class="submit-button" value="submit">SUBMIT</button>
+	    		<!-- <button class="submit-button" type="submit" value="submit">SUBMIT</button> -->
+	    		<input class="submit-button" type="submit" value="SUBMIT">
 
 	    	</form>
 
