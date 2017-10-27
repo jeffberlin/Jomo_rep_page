@@ -58,8 +58,30 @@ html, body {
     background-color: initial;
 }
 
+.header {
+	/*margin: 10vh 0;*/
+	margin-top: 10vh;
+}
+
 .jomo-logo {
-	margin: 10vh 0;
+	margin-bottom: 3rem;
+}
+
+.app-store {
+	margin-bottom: 3rem;
+}
+
+.header h3 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+	font-size: 32pt;
+}
+
+.header p {
+	font-family: "UntitledSansTest-Light";
+	color: #696a6d;
+	font-size: 16pt;
+	font-weight: 550;
 }
 
 .play-store {
@@ -77,4 +99,19 @@ html, body {
 	padding: 15px;
 	margin: 3rem auto;
 	height: fit-content;
+}
+
+.learn-button {
+	font-family: "UntitledSansTest-Light";
+	color: #696a6d;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	text-decoration: underline;
+	letter-spacing: 0.05em;
+	line-height: 1.46;
+	font-weight: 900;
+	outline: none;
+	margin-bottom: 1rem;
 }
