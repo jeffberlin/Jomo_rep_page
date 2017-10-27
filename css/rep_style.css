@@ -1,0 +1,80 @@
+/* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d *//* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d */
+
+@font-face {
+	font-family: GT-Walsheim-Medium;
+	src: url(GT-WALSHEIM-PRO-MEDIUM_0.TTF);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Thin;
+	src: url(GT-Walsheim-Pro-Trial-Thin.otf);
+}
+
+@font-face {
+	font-family: GT-Walsheim-Oblique;
+	src: url(GT-Walsheim-Pro-Trial-Light-Oblique.otf);
+}
+
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Bold;
+	src: url(UntitledSansTest-Bold.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Light;
+	src: url(UntitledSansTest-Light.otf);
+}
+
+@font-face {
+	font-family: UntitledSansTest-Medium;
+	src: url(UntitledSansTest-Medium.otf);
+}
+
+a {
+	text-decoration: none !important;
+}
+
+html, body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.top-section {
+	height: 100vh;
+    background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/unc_charlotte-min.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+}
+
+.jomo-logo {
+	margin: 10vh 0;
+}
+
+.play-store {
+	width: 165px;
+	display: inline-block;
+	margin: .5rem;
+}
+
+.time-img {
+	background-color: #30cf83;
+	text-align: center;
+}
+
+.time-img img {
+	padding: 15px;
+	margin: 3rem auto;
+	height: fit-content;
+}
