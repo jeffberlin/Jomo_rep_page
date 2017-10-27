@@ -167,3 +167,75 @@ ul {
 	letter-spacing: .7px;
 	text-align: center;
 }
+
+.pay {
+	background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/money-min.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #30cf83;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+/* SIGNUP FORM */
+
+form {
+	margin-top: 8rem;
+}
+
+.form-group {
+	margin-bottom: 3rem;
+}
+
+.form-group label {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+	font-size: 14pt;
+	letter-spacing: .75px;
+}
+
+.form-control {
+	text-decoration: none;
+}
+
+
+.form-control::placeholder {
+	font-family: 'UntitledSansTest-Light';
+}
+
+input, textarea {
+	outline: none;
+	border: 1px solid #696a6d;
+}
+
+.submit-button {
+	margin-bottom: 5rem;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.8px;
+	line-height: 24px;
+	text-shadow: 0 1px 1px #23AB6A;
+	background: #30CF83;
+	border-radius: 4px;
+	padding: 1.5rem;
+	font-family: 'UntitledSansTest-Medium';
+	outline: none;
+	border: none;
+	display: inline-block;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 400;
+    touch-action: manipulation;
+    cursor: pointer;
+}
