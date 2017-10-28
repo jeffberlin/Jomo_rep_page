@@ -45,11 +45,17 @@
 
     		<div class="about-jomo row">
     			
-    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    			<!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
 					
 					<!-- <img class="img-responsive center-block" src="images/jomo_time_logo_min.png"> -->
 
 					<h1>What is JOMO?</h1>
+
+				<!-- </div> -->
+
+				<div class="col-lg-6 col-lg-offset-3">
+
+					<p>JOMO makes it easy for you to do more of what you love, in real life. Quickly plan outings with friends or open the doors to something new and exciting with other likeminded people nearby.</p>
 
 				</div>
 
@@ -73,7 +79,9 @@
 
 	    		<div class="col-lg-6 text-center">
 
-	    			<p>Anyone who likes doing things with other people—so just about everyone!  It could be big events like a concert, or small everyday things like studying with others, having beers with friends, playing video games, yoga, swimming, fraternity parties, sports… you get the point.</p>
+	    			<p>Anyone who likes doing things with other people—so just about everyone!</p>
+
+	    			<!-- <p>Anyone who likes doing things with other people—so just about everyone!  It could be big events like a concert, or small everyday things like studying with others, having beers with friends, playing video games, yoga, swimming, fraternity parties, sports… you get the point.</p> -->
 
 	    		</div>
 
@@ -91,9 +99,9 @@
 
     			<div class="col-lg-6 col-lg-offset-3">
 
-    				<p style="margin-bottom: 2rem;">Basically, all you need to do is what you’re already doing—things like studying, working out, grabbing dinner, doing laundry, playing video games, etc.  And then when you want others to join you, let them know by posting on JOMO.  And you can “work” as much, or as little as you like.  It’s up to you, but the more you post, the more you make.</p>
+    				<p style="margin-bottom: 3rem;">Basically, all you need to do is what you’re already doing — things like studying, working out, hanging with friends, playing video games, basketball, etc.  And when you want friends or others to join, just let them know by posting on JOMO.</p>
 
-    				<p style="margin-bottom: 2rem;">Here’s how it works…</p>
+    				<h3>Here’s how it works…</h3>
 
     				<p>We'll pay you $1 for every time you post</p>
     				
@@ -116,13 +124,13 @@
 	    		<ul class="intructions-list text-center">
 
 	    			<li>
-	    				Apply Below
+	    				Apply Below and once we set you up:
 	    			</li>
 	    			<li>
 	    				Download JOMO
 	    			</li>
 	    			<li>
-	    				Share JOMO with others
+	    				Share JOMO with others so they join you
 	    			</li>
 	    			<li>
 	    				Post some of the things you do everyday
@@ -137,95 +145,93 @@
 
     	</div>
 
+    <!-- SIGN UP FORM -->
+
     	<div class="sign-up container-fluid">
 
-    		<div class="row">
+    		<div class="col-lg-4 col-lg-offset-4">
 
-	    		<div class="col-lg-6">
+    			<h1>SIGN UP!</h1>
 
-	    			<p>So, you are paying me to have fun doing what I’m already doing. Why?</p>
+		    	<form action="https://formspree.io/rep@jomoapp.com" method="POST">
 
-	    			<p>So, it’s simple.  We want to connect UNCC students to everything going on around them and, odds are, you’re not the only person on campus that loves doing the things you do.  So, we need your help to make that happen.</p>
+		    		<div class="form-group">
 
-					<p>If you have any questions, you can email rep@jomoapp.com and we’ll get back to you as soon as possible.</p>
+		    			<label class="control-label" for="inputSuccess2">First Name:</label>
 
-				</div>
+		    			<input class="form-control" type="text" name="name" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="First Name">
 
-	<!-- SIGN UP FORM -->
+		    		</div>
 
-	    		<div class="col-lg-4 col-lg-offset-1">
+		    		<div class="form-group">
 
-	    			<h1>SIGN UP!</h1>
+		    			<label for="exampleInputLastName">Last Name:</label>
 
-			    	<form action="https://formspree.io/rep@jomoapp.com" method="POST">
+		    			<input class="form-control" type="text" name="name" placeholder="Last Name">
 
-			    		<div class="form-group">
+		    		</div>
 
-			    			<label class="control-label" for="inputSuccess2">First Name:</label>
+		    		<div class="form-group">
+		    			
+		    			<label for="exampleInputGrade">Class:</label>
 
-			    			<input class="form-control" type="text" name="name" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="First Name">
+		    			<!-- <input class="form-control" type="text" name="grade" placeholder="Senior, Freshman, etc."> -->
 
-			    		</div>
+		    			<select class="form-control" name="grade">
 
-			    		<div class="form-group">
+		    				<option value="">Select</option>
 
-			    			<label for="exampleInputLastName">Last Name:</label>
+		    				<option>Grad Student</option>
 
-			    			<input class="form-control" type="text" name="name" placeholder="Last Name">
+		    				<option>Senior</option>
 
-			    		</div>
+		    				<option>Junior</option>
 
-			    		<div class="form-group">
-			    			
-			    			<label for="exampleInputGrade">Grade:</label>
+		    				<option>Sophomore</option>
 
-			    			<!-- <input class="form-control" type="text" name="grade" placeholder="Senior, Freshman, etc."> -->
+		    				<option>Freshman</option>
 
-			    			<select class="form-control" name="grade">
+		    			</select>
 
-			    				<option value="">Select</option>
+		    		</div>
 
-			    				<option>Senior</option>
+		    		<div class="form-group">
 
-			    				<option>Junior</option>
+		    			<label for="exampleInputEmail">UNCC Email:</label>
 
-			    				<option>Sophomore</option>
+		    			<input class="form-control" type="email" name="mail" placeholder="your@email.com">
 
-			    				<option>Freshman</option>
+		    		</div>
 
-			    			</select>
+		    		<!-- <div class="form-group">
 
-			    		</div>
+		    			<label for="exampleInputPhone">Phone:</label>
 
-			    		<div class="form-group">
+		    			<input class="form-control" type="tel" name="phone" placeholder="(000) 000-0000">
 
-			    			<label for="exampleInputEmail">Email:</label>
+		    		</div> -->
 
-			    			<input class="form-control" type="email" name="mail" placeholder="your@email.com">
+		    		<!-- <div class="form-group">
 
-			    		</div>
+		    			<label for="exampleInputMessage">What do you do for fun?</label>
 
-			    		<div class="form-group">
+		    			<textarea class="form-control" rows="3" type="text" name="message" placeholder="Tell us some activities you enjoy doing! It can be anything from playing basketball with some friends to grabbing drinks."></textarea>
 
-			    			<label for="exampleInputPhone">Phone:</label>
+		    		</div> -->
 
-			    			<input class="form-control" type="tel" name="phone" placeholder="(000) 000-0000">
+		    		<input class="submit-button" type="submit" value="SUBMIT">
 
-			    		</div>
+		    	</form>
 
-			    		<div class="form-group">
+		    </div>
 
-			    			<label for="exampleInputMessage">What do you do for fun?</label>
+		    <div class="row">
 
-			    			<textarea class="form-control" rows="3" type="text" name="message" placeholder="Tell us some activities you enjoy doing! It can be anything from playing basketball with some friends to grabbing drinks."></textarea>
+		    	<div class="col-lg-12 text-center">
 
-			    		</div>
+		    		<p>If you have any questions, you can email rep@jomoapp.com and we’ll get back to you as soon as possible.</p>
 
-			    		<input class="submit-button" type="submit" value="SUBMIT">
-
-			    	</form>
-
-			    </div>
+		   		</div>
 
 			</div>
 

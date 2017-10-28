@@ -121,6 +121,14 @@ html, body {
 	font-size: 30pt;
 }
 
+.about-jomo p {
+	font-family: 'UntitledSansTest-Light';
+	color: #ffffff;
+	font-size: 16pt;
+	font-weight: 550;
+	letter-spacing: .75px;
+}
+
 /* Rep info section */
 
 .info {
@@ -140,7 +148,7 @@ html, body {
 	color: #69616d;
 	font-family: 'UntitledSansTest-Light';
 	font-size: 16pt;
-	letter-spacing: .7px;
+	letter-spacing: .75px;
 	padding-left: 6rem;
 	padding-right: 6rem;
 	padding-top: 6rem;
@@ -152,19 +160,6 @@ html, body {
 	background-color: #f5f5f5;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
-	background-image: linear-gradient(rgba(251, 251, 251, .85), rgb(251, 251, 251) 90%), url(../images/money-min.jpg);
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: initial, initial;
-    background-repeat-y: initial, initial;
-    background-attachment: initial, initial;
-    background-origin: initial, initial;
-    background-clip: initial, initial;
-    background-color: initial;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .job-details h1 {
@@ -181,6 +176,13 @@ html, body {
 	font-weight: 550;
 	letter-spacing: .75px;
 	font-size: 16pt;
+}
+
+.job-details h3 {
+	color: #3a4b58;
+	font-family: 'GT-Walsheim-Medium';
+	font-size: 20pt;
+	margin-bottom: 2rem;
 }
 
 /* INSTRUCTIONS SECTION */
@@ -219,10 +221,6 @@ ul {
 	padding-top: 8rem;
 }
 
-.sign-up p {
-	padding-top: 3rem;
-}
-
 .sign-up h1 {
 	font-family: 'GT-Walsheim-Medium';
 	color: #30cf83;
@@ -230,13 +228,6 @@ ul {
 	letter-spacing: 2px;
 	font-size: 32pt;
 	text-shadow: 0 1px 1px #23AB6A;
-}
-
-.sign-up p {
-	font-family: 'UntitledSansTest-Light';
-	color: #696a6d;
-	font-size: 16pt;
-	font-weight: 550;
 }
 
 form {
@@ -258,8 +249,7 @@ form {
 	text-decoration: none;
 }
 
-
-.form-control::placeholder {
+.form-control::placeholder, .form-control  {
 	font-family: 'UntitledSansTest-Light';
 	letter-spacing: .75px;
 }
@@ -289,4 +279,12 @@ input, textarea {
     font-weight: 400;
     touch-action: manipulation;
     cursor: pointer;
+}
+
+.sign-up p {
+	padding-bottom: 3rem;
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+	font-size: 16pt;
+	font-weight: 550;
 }
