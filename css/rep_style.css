@@ -1,4 +1,4 @@
-/* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d *//* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d */
+/* colors: green #30cf83, blue #3a4b58, dark blue #211d3d, light grey #d2d4d3, dark grey #696a6d */
 
 @font-face {
 	font-family: GT-Walsheim-Medium;
@@ -106,24 +106,22 @@ html, body {
 	margin-bottom: 1rem;
 }
 
-.time-img {
+/* About JOMO section */
+
+.about-jomo {
 	background-color: #30cf83;
 	text-align: center;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
 
-.time-img img {
-	padding: 15px;
-	margin: 3rem auto;
-	height: fit-content;
-}
-
-.time-img h1 {
+.about-jomo h1 {
 	font-family: 'GT-Walsheim-Medium';
 	color: #ffffff;
 	font-size: 30pt;
 }
+
+/* Rep info section */
 
 .info {
 	padding-top: 8rem;
@@ -148,9 +146,9 @@ html, body {
 	padding-top: 6rem;
 }
 
-/* DETAILS SECTION */
+/* JOB-DETAILS SECTION */
 
-.details {
+.job-details {
 	background-color: #f5f5f5;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
@@ -169,7 +167,7 @@ html, body {
 	background-repeat: no-repeat;
 }
 
-.details h1 {
+.job-details h1 {
 	color: #3a4b58;
 	font-family: 'GT-Walsheim-Medium';
 	margin-bottom: 3rem;
@@ -177,7 +175,7 @@ html, body {
 	padding-right: 1rem;
 }
 
-.details p {
+.job-details p {
 	font-family: 'UntitledSansTest-Light';
 	color: #696a6d;
 	font-weight: 550;
@@ -216,6 +214,14 @@ ul {
 }
 
 /* SIGNUP FORM */
+
+.sign-up {
+	padding-top: 8rem;
+}
+
+.sign-up p {
+	padding-top: 3rem;
+}
 
 .sign-up h1 {
 	font-family: 'GT-Walsheim-Medium';
