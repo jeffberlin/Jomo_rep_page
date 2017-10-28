@@ -421,6 +421,14 @@ input, textarea {
 
 }
 
+@media (max-width: 590px) {
+
+	.time-img img {
+		height: 60px !important;
+	}
+	
+}
+
 @media (max-width: 557px) {
 
 	.map-info h1 {
