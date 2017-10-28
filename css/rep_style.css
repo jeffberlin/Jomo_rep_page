@@ -215,6 +215,7 @@ html, body {
 	margin-bottom: 3rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	text-align: center;
 }
 
 .job-details p {
@@ -226,6 +227,7 @@ html, body {
 .job-details h3 {
 	font-size: 20pt;
 	margin-bottom: 2rem;
+	text-align: center;
 }
 
 /* INSTRUCTIONS SECTION */
@@ -261,7 +263,7 @@ ul {
 /* SIGNUP FORM */
 
 .sign-up {
-	padding-top: 8rem;
+	padding-top: 6rem;
 }
 
 .sign-up h1 {
@@ -284,10 +286,6 @@ form {
 .form-group label {
 	font-size: 14pt;
 	letter-spacing: .75px;
-}
-
-.form-control {
-	text-decoration: none;
 }
 
 .form-control::placeholder, .form-control  {
@@ -458,10 +456,23 @@ input, textarea {
 
 }
 
+@media (max-width: 609px) {
+
+	.instructions h1 {
+		font-size: 26pt;
+	}
+
+}
+
 @media (max-width: 590px) {
 
 	.time-img img {
 		height: 60px !important;
+	}
+
+	.submit-button {
+		font-size: 14px;
+		padding: 1rem;
 	}
 
 }
@@ -478,10 +489,38 @@ input, textarea {
 
 }
 
+@media (max-width: 531px) {
+
+	.job-details h1 {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+}
+
 @media (max-width: 512px) {
 
 	.map-info h1 {
 		font-size: 20pt !important;
+	}
+
+	.instructions li {
+		font-size: 14pt;
+	}
+
+}
+
+@media (max-width: 493px) {
+
+	.job-details h1 {
+		font-size: 24pt !important;
+	}
+
+	.job-details h3 {
+		font-size: 18pt;
+	}
+
+	.job-details p {
+		font-size: 12pt;
 	}
 
 }
@@ -506,6 +545,10 @@ input, textarea {
 
 	#ios-img {
 		margin-right: 0 !important;
+	}
+
+	.instructions li {
+		font-size: 12pt;
 	}
 
 }
