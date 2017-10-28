@@ -62,7 +62,7 @@ html, body {
 
 .top-section {
 	height: 110vh;
-    background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/unc_charlotte-min.jpg);
+    background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/jomo_unc_charlotte_min.jpg);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -99,6 +99,7 @@ html, body {
 .header p {
 	font-size: 16pt;
 	font-weight: 550;
+	letter-spacing: .75px;
 }
 
 .learn-button {
@@ -190,8 +191,9 @@ html, body {
 }
 
 .info h1 {
-	font-size: 30pt;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	text-align: center;
 }
 
@@ -427,15 +429,6 @@ input, textarea {
 
 }
 
-@media (max-width: 720px) {
-
-	.info h1 {
-		padding-left: 1rem !important;
-		padding-right: 1rem !important;
-	}
-
-}
-
 @media (max-width: 686px) {
 
 	.map-info h1 {
@@ -444,10 +437,6 @@ input, textarea {
 
 	.map-info p {
 		font-size: 14pt !important;
-	}
-
-	.info h1 {
-		font-size: 26pt !important;
 	}
 
 }
@@ -487,7 +476,7 @@ input, textarea {
 
 @media (max-width: 531px) {
 
-	.job-details h1 {
+	.info h1, .job-details h1 {
 		margin-left: 2rem;
 		margin-right: 2rem;
 	}
@@ -507,7 +496,7 @@ input, textarea {
 
 @media (max-width: 493px) {
 
-	.job-details h1 {
+	.info h1, .job-details h1 {
 		font-size: 24pt !important;
 	}
 
