@@ -57,15 +57,21 @@
 
     	</div>
 
-    	<div class="info container-fluid">
+    	<div class="info container-fluid" style="padding-left: 0; padding-right: 0;">
 
-    		<div class="row text-center">
+    		<div class="row">
 
 	    		<h1>Who’s a typical JOMO Campus Rep?</h1>
 
-	    		<div class="col-lg-6 col-lg-offset-3">
+	    		<div class="col-lg-6">
 
-	    			<p style="margin-bottom: 3rem;">Anyone who likes doing things with other people—so just about everyone!  It could be big events like a concert, or small everyday things like studying with others, having beers with friends, playing video games, yoga, swimming, fraternity parties, sports… you get the point.</p>
+	    			<img class="img-responsive" src="images/student union 950-min.png">
+
+	    		</div>
+
+	    		<div class="col-lg-6 text-center">
+
+	    			<p>Anyone who likes doing things with other people—so just about everyone!  It could be big events like a concert, or small everyday things like studying with others, having beers with friends, playing video games, yoga, swimming, fraternity parties, sports… you get the point.</p>
 
 	    		</div>
 
@@ -81,18 +87,13 @@
 
     			<div class="col-lg-6 col-lg-offset-3">
 
-    				<p>Basically, all you need to do is what you’re already doing—things like studying, working out, grabbing dinner, doing laundry, playing video games, etc.  And then when you want others to join you, let them know by posting on JOMO.  And you can “work” as much, or as little as you like.  It’s up to you, but the more you post, the more you make.</p>
+    				<p style="margin-bottom: 2rem;">Basically, all you need to do is what you’re already doing—things like studying, working out, grabbing dinner, doing laundry, playing video games, etc.  And then when you want others to join you, let them know by posting on JOMO.  And you can “work” as much, or as little as you like.  It’s up to you, but the more you post, the more you make.</p>
 
-    				<p>Here’s it works…</p>
+    				<p style="margin-bottom: 2rem;">Here’s how it works…</p>
 
-    				<ul>
-    					<li>
-    						We'll pay you $1 for every time you post
-    					</li>
-    					<li>
-    						And then we'll pay you $1 for every person who joins you - so share with friends!
-    					</li>
-    				</ul>
+    				<p>We'll pay you $1 for every time you post</p>
+    				
+    				<p>And then we'll pay you $1 for every person who joins you - so share with friends!</p>
 
     			</div>
 
@@ -139,16 +140,6 @@
 
     	</div>
 
-    	
-
-    	<div class="pay container-fluid">
-
-    		<h1>Compensation</h1>
-
-    		
-
-    	</div>
-
     	<div class="sign-up container-fluid">
 
     		<p>So, you are paying me to have fun doing what I’m already doing. Why?</p>
@@ -159,13 +150,15 @@
 
     		<div class="col-lg-4 col-lg-offset-4">
 
+    			<h1>SIGN UP!</h1>
+
 		    	<form action="https://formspree.io/rep@jomoapp.com" method="POST">
 
 		    		<div class="form-group">
 
-		    			<label for="exampleInputName">First Name:</label>
+		    			<label class="control-label" for="inputSuccess2">First Name:</label>
 
-		    			<input class="form-control" id="exampleInputName" type="text" name="name" placeholder="First Name">
+		    			<input class="form-control" type="text" name="name" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="First Name">
 
 		    		</div>
 
@@ -173,7 +166,7 @@
 
 		    			<label for="exampleInputLastName">Last Name:</label>
 
-		    			<input class="form-control" id="exampleInputLastName" type="text" name="name" placeholder="Last Name">
+		    			<input class="form-control" type="text" name="name" placeholder="Last Name">
 
 		    		</div>
 
@@ -181,7 +174,21 @@
 		    			
 		    			<label for="exampleInputGrade">Grade:</label>
 
-		    			<input class="form-control" id="exampleInputGrade" type="text" name="grade" placeholder="Grade">
+		    			<!-- <input class="form-control" type="text" name="grade" placeholder="Senior, Freshman, etc."> -->
+
+		    			<select class="form-control" name="grade">
+
+		    				<option value="">Select</option>
+
+		    				<option>Senior</option>
+
+		    				<option>Junior</option>
+
+		    				<option>Sophomore</option>
+
+		    				<option>Freshman</option>
+
+		    			</select>
 
 		    		</div>
 
@@ -189,7 +196,7 @@
 
 		    			<label for="exampleInputEmail">Email:</label>
 
-		    			<input class="form-control" id="exampleInputEmail" type="email" name="mail" placeholder="your@email.com">
+		    			<input class="form-control" type="email" name="mail" placeholder="your@email.com">
 
 		    		</div>
 
@@ -197,7 +204,7 @@
 
 		    			<label for="exampleInputPhone">Phone:</label>
 
-		    			<input class="form-control" id="exampleInputPhone" type="tel" name="phone" placeholder="(000) 000-0000">
+		    			<input class="form-control" type="tel" name="phone" placeholder="(000) 000-0000">
 
 		    		</div>
 
@@ -205,7 +212,7 @@
 
 		    			<label for="exampleInputMessage">What do you do for fun?</label>
 
-		    			<textarea class="form-control" id="exampleInputMessage" rows="3" type="text" name="message" placeholder="Hockey, football, skateboarding, mountain biking, etc."></textarea>
+		    			<textarea class="form-control" rows="3" type="text" name="message" placeholder="Tell us some activities you enjoy doing! It can be anything from playing basketball with some friends to grabbing drinks."></textarea>
 
 		    		</div>
 

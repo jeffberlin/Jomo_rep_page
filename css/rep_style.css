@@ -125,15 +125,56 @@ html, body {
 	font-size: 30pt;
 }
 
+.info {
+	padding-top: 8rem;
+	border-bottom: 1px solid #30cf83;
+}
+
+.info h1 {
+	color: #3a4b58;
+	font-family: 'GT-Walsheim-Medium';
+	font-size: 30pt;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.info p {
+	color: #69616d;
+	font-family: 'UntitledSansTest-Light';
+	font-size: 16pt;
+	letter-spacing: .7px;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-top: 6rem;
+}
+
 /* DETAILS SECTION */
 
 .details {
 	background-color: #f5f5f5;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-image: linear-gradient(rgba(251, 251, 251, .85), rgb(251, 251, 251) 90%), url(../images/money-min.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: initial, initial;
+    background-repeat-y: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .details h1 {
 	color: #3a4b58;
 	font-family: 'GT-Walsheim-Medium';
+	margin-bottom: 3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .details p {
@@ -174,47 +215,16 @@ ul {
     font-weight: 550;
 }
 
-.info {
-	
-	padding-bottom: 8rem;
-	padding-top: 8rem;
-}
-
-.info h1 {
-	color: #3a4b58;
-	font-family: 'GT-Walsheim-Medium';
-	font-size: 30pt;
-	margin-bottom: 3rem;
-}
-
-.info p {
-	color: #69616d;
-	font-family: 'UntitledSansTest-Light';
-	font-size: 16pt;
-	letter-spacing: .7px;
-	text-align: center;
-}
-
-.pay {
-	background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/money-min.jpg);
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat-x: initial, initial;
-    background-repeat-y: initial, initial;
-    background-attachment: initial, initial;
-    background-origin: initial, initial;
-    background-clip: initial, initial;
-    background-color: initial;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	border-bottom: 1px solid #30cf83;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-}
-
 /* SIGNUP FORM */
+
+.sign-up h1 {
+	font-family: 'GT-Walsheim-Medium';
+	color: #30cf83;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 32pt;
+	text-shadow: 0 1px 1px #23AB6A;
+}
 
 .sign-up p {
 	font-family: 'UntitledSansTest-Light';
@@ -224,7 +234,7 @@ ul {
 }
 
 form {
-	margin-top: 8rem;
+	margin-top: 3rem;
 }
 
 .form-group {
@@ -245,6 +255,7 @@ form {
 
 .form-control::placeholder {
 	font-family: 'UntitledSansTest-Light';
+	letter-spacing: .75px;
 }
 
 input, textarea {
