@@ -47,7 +47,7 @@ html, body {
 /* TOP SECTION */
 
 .top-section {
-	height: 100vh;
+	height: 110vh;
     background-image: linear-gradient(rgba(251, 251, 251, 0.7), rgb(251, 251, 251) 85%), url(../images/unc_charlotte-min.jpg);
     background-position-x: center;
     background-position-y: center;
