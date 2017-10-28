@@ -44,6 +44,16 @@ html, body {
 	width: 100%;
 }
 
+.header h3, .map-info h1, .info h1, .job-details h1, .job-details h3, .form-group label {
+	font-family: 'GT-Walsheim-Medium';
+	color: #3a4b58;
+}
+
+.header p, .map-info p, .info p, .job-details p, .form-control {
+	font-family: 'UntitledSansTest-Light';
+	color: #696a6d;
+}
+
 /* TOP SECTION */
 
 .top-section {
@@ -79,14 +89,10 @@ html, body {
 }
 
 .header h3 {
-	font-family: 'GT-Walsheim-Medium';
-	color: #3a4b58;
 	font-size: 32pt;
 }
 
 .header p {
-	font-family: "UntitledSansTest-Light";
-	color: #696a6d;
 	font-size: 16pt;
 	font-weight: 550;
 }
@@ -108,11 +114,17 @@ html, body {
 
 /* About JOMO section */
 
-.about-jomo {
+.time-img {
 	background-color: #30cf83;
 	text-align: center;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	/*padding-top: 4rem;
+	padding-bottom: 4rem;*/
+}
+
+.time-img img {
+	padding: 15px;
+	margin: 3rem auto;
+	height: fit-content;
 }
 
 .about-jomo h1 {
@@ -129,6 +141,44 @@ html, body {
 	letter-spacing: .75px;
 }
 
+/* Map section */
+
+.map {
+	background-image: url('../images/jomo_charlotte_map_pins_min.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 1px solid #30cf83;
+	margin-top: -5px;
+	width: 100%;
+	display: flex;
+}
+
+.phonemap img {
+	width: 300px;
+	margin-top: 82px;
+}
+
+.phonemap {
+	padding: 0;
+}
+
+.map-info {
+	margin-top: 16rem;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.map-info h1 {
+	font-size: 30pt;
+}
+
+.map-info p {
+	font-size: 18pt;
+	font-weight: 550;
+	margin-top: 20px;
+}
+
 /* Rep info section */
 
 .info {
@@ -137,16 +187,12 @@ html, body {
 }
 
 .info h1 {
-	color: #3a4b58;
-	font-family: 'GT-Walsheim-Medium';
 	font-size: 30pt;
 	margin-bottom: 5rem;
 	text-align: center;
 }
 
 .info p {
-	color: #69616d;
-	font-family: 'UntitledSansTest-Light';
 	font-size: 16pt;
 	letter-spacing: .75px;
 	padding-left: 6rem;
@@ -163,24 +209,18 @@ html, body {
 }
 
 .job-details h1 {
-	color: #3a4b58;
-	font-family: 'GT-Walsheim-Medium';
 	margin-bottom: 3rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
 
 .job-details p {
-	font-family: 'UntitledSansTest-Light';
-	color: #696a6d;
 	font-weight: 550;
 	letter-spacing: .75px;
 	font-size: 16pt;
 }
 
 .job-details h3 {
-	color: #3a4b58;
-	font-family: 'GT-Walsheim-Medium';
 	font-size: 20pt;
 	margin-bottom: 2rem;
 }
@@ -239,8 +279,6 @@ form {
 }
 
 .form-group label {
-	font-family: 'GT-Walsheim-Medium';
-	color: #3a4b58;
 	font-size: 14pt;
 	letter-spacing: .75px;
 }
@@ -287,4 +325,114 @@ input, textarea {
 	color: #696a6d;
 	font-size: 16pt;
 	font-weight: 550;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1199px) {
+
+	.map-info p {
+		font-size: 16pt !important;
+	}
+
+}
+
+@media (max-width: 1169px) {
+
+	.phonemap h1 {
+		font-size: 28pt;
+	}
+
+	.phonemap p {
+		font-size: 18pt !important;
+	}
+
+}
+
+@media (max-width: 1131px) {
+
+	.map-info h1, .map-info p {
+		margin-left: 5rem !important;
+	}
+
+}
+
+@media (max-width: 1047px) {
+
+	.map-info h1 {
+		font-size: 28pt !important;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.phonemap {
+		text-align: center;
+	}
+
+	.phonemap img {
+		margin-top: 12px !important;
+	}
+
+	.map-info {
+		margin-bottom: 2rem !important;
+		margin-top: 2rem !important;
+		margin-left: 0rem !important;
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+		text-align: center;
+	}
+
+	.map-info h1, .map-info p {
+		margin-left: 0 !important;
+	}
+
+	.map-info p {
+		padding-right: 10rem !important;
+		padding-left: 10rem !important; 
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.map-info h1 {
+		margin-top: 0rem !important;
+		margin-bottom: 0rem !important;
+	}
+
+	.map-info {
+		margin-top: 5rem !important;
+		margin-bottom: 5rem !important;
+	}
+
+	.phonemap img {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 686px) {
+
+	.map-info h1 {
+		font-size: 24pt !important;
+	}
+
+}
+
+@media (max-width: 557px) {
+
+	.map-info h1 {
+		font-size: 22pt !important;
+	}
+
+}
+
+@media (max-width: 512px) {
+
+	.map-info h1 {
+		font-size: 20pt !important;
+	}
+
 }
