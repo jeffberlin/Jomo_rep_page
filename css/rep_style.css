@@ -187,7 +187,6 @@ html, body {
 
 .info {
 	padding-top: 8rem;
-	border-bottom: 1px solid #30cf83;
 }
 
 .info h1 {
@@ -339,6 +338,15 @@ input, textarea {
 		font-size: 16pt !important;
 	}
 
+	.info {
+		padding-top: 3rem !important;
+	}
+
+	.info p {
+		padding-top: 0 !important;
+		margin-bottom: 4rem;
+	}
+
 }
 
 @media (max-width: 1169px) {
@@ -370,6 +378,14 @@ input, textarea {
 }
 
 @media (max-width: 991px) {
+
+	#play-img, #ios-img {
+		padding-right: 0px !important;
+	}
+
+	#ios-img {
+		margin-right: 10px;
+	}
 
 	.phonemap {
 		text-align: center;
@@ -417,6 +433,15 @@ input, textarea {
 
 }
 
+@media (max-width: 720px) {
+
+	.info h1 {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+
+}
+
 @media (max-width: 686px) {
 
 	.map-info h1 {
@@ -425,6 +450,10 @@ input, textarea {
 
 	.map-info p {
 		font-size: 14pt !important;
+	}
+
+	.info h1 {
+		font-size: 26pt !important;
 	}
 
 }
@@ -453,6 +482,54 @@ input, textarea {
 
 	.map-info h1 {
 		font-size: 20pt !important;
+	}
+
+}
+
+@media (max-width: 430px) {
+
+	.jomo-logo {
+		height: 150px !important;
+	}
+
+	.header h3 {
+		font-size: 30pt !important;
+	}
+
+	.info p {
+		font-size: 14pt !important;
+	}
+
+}
+
+@media (max-width: 359px) {
+
+	#ios-img {
+		margin-right: 0 !important;
+	}
+
+}
+
+@media (max-width: 333px) {
+
+	.header {
+		margin: 9vh 0 !important;
+	}
+
+	.jomo-logo, .header h3 {
+		margin-bottom: 2rem !important;
+	}
+	
+	.jomo-logo {
+		height: 130px !important;
+	}
+
+	.header h3 {
+		font-size: 26pt !important;
+	}
+
+	#ios-img, #play-img {
+		padding: 0 !important;
 	}
 
 }
