@@ -234,6 +234,7 @@ html, body {
 
 .instructions {
 	background-color: #3a4b58;
+	padding-bottom: 4rem;
 }
 
 .instructions h1 {
@@ -243,17 +244,12 @@ html, body {
 	text-align: center;
 	margin-top: 8rem;
 	margin-bottom: 3rem;
-}
-
-ul {
-	padding-left: 0;
-	margin-bottom: 8rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
 }
 
 .intructions-list li {
-	height: 30px;
     margin: 2rem 0;
-    list-style: none;
     font-family: 'UntitledSansTest-Light';
     color: #ffffff;
     font-size: 16pt;
@@ -537,6 +533,10 @@ input, textarea {
 
 	.info p {
 		font-size: 14pt !important;
+	}
+
+	.instructions ul {
+		padding-left: 1rem;
 	}
 
 }
