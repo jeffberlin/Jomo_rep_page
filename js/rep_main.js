@@ -11,7 +11,7 @@ if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
 // 'Learn More' scroll button functions
 $(".learn-button").click(function() {
     $('html,body').animate({
-        scrollTop: $(".instructions").offset().top
+        scrollTop: $(".details").offset().top
     }, 'slow')
 })
 
